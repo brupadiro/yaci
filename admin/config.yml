@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: brupadiro/yaci
+  branch: master
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "contenido"
+    label: "Contenido"
+    files:
+      - label: "Entradas"
+        name: "entradas"
+        file: "content/entries.json"
+        fields:
+          - label: "Entradas"
+            name: "entries"
+            widget: "list"
+            summary: "{{fields.code}} // {{fields.title}}"
+            fields:
+              - { label: "ID (slug)", name: "id", widget: "string" }
+              - { label: "Código", name: "code", widget: "string" }
+              - { label: "Fecha", name: "date", widget: "string", hint: "Formato recomendado: DD.MM.YYYY" }
+              - { label: "Tono", name: "tone", widget: "string", required: false }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text", required: false }
+              - { label: "Kicker", name: "kicker", widget: "string", required: false }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                required: false
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - label: "Puntos clave"
+                name: "points"
+                widget: "list"
+                required: false
+                field: { label: "Punto", name: "point", widget: "text" }
+              - label: "Cuerpo"
+                name: "body"
+                widget: "list"
+                required: false
+                hint: "Cada ítem es un párrafo"
+                field: { label: "Párrafo", name: "paragraph", widget: "text" }
