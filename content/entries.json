@@ -1,0 +1,50 @@
+[
+  {
+    "id": "lab-01",
+    "code": "LAB-01",
+    "date": "26.03.2026",
+    "tone": "Contraste estructural",
+    "title": "Cómo diseñar para la oscuridad sin perder legibilidad",
+    "intro": "La penumbra funciona cuando la jerarquía espacial reemplaza al exceso de color.",
+    "kicker": "LECTURA // SISTEMA TONAL",
+    "tags": "ui\ncontraste\ntipografia\njerarquia",
+    "points": "Negro profundo como fondo operativo, no como efecto dramático.\nTextos en verde grisáceo para lectura continua en sesiones largas.\nAcentos brillantes reservados para acciones y no para decoración.",
+    "body": "Un sistema low-key no se resuelve subiendo el brillo del texto hasta blanco puro. Se resuelve ordenando capas: fondo, contenedores, títulos y acciones con saltos tonales claros.\n\nCuando el color disponible es mínimo, la composición debe hacer más trabajo: márgenes precisos, ritmo vertical regular y bloques con borde técnico para separar funciones.\n\nLa legibilidad final depende de consistencia. Si cada módulo usa una intensidad distinta sin criterio, la interfaz pierde foco y la atmósfera se rompe."
+  },
+  {
+    "id": "lab-02",
+    "code": "LAB-02",
+    "date": "24.03.2026",
+    "tone": "Verde industrial",
+    "title": "La paleta verde industrial: fría, densa y utilitaria",
+    "intro": "La identidad visual nace de pocos tonos bien controlados, no de una paleta extensa.",
+    "kicker": "LECTURA // PALETA BASE",
+    "tags": "paleta\nbranding\natmosfera\ncolor",
+    "points": "Base casi negra para profundidad constante.\nMedios desaturados para áreas de lectura y paneles.\nUn solo acento luminoso para navegación y CTA.",
+    "body": "El verde industrial transmite continuidad técnica sin caer en el cliché neón. La clave es recortar saturación y dejar que los valores de luminosidad marquen la narrativa.\n\nLa base trabaja entre #000000 y #080a08; sobre esa sombra, los medios como #1e251f y #39463b sostienen interfaces densas pero legibles.\n\nLos acentos, #82cf89 y #a0f4a8, aparecen en dosis pequeñas: enlaces, foco y estados activos. Ese límite preserva tensión visual."
+  },
+  {
+    "id": "lab-03",
+    "code": "LAB-03",
+    "date": "22.03.2026",
+    "tone": "Centro estable",
+    "title": "Composición centrada con tensión horizontal",
+    "intro": "Un centro firme ordena la lectura; las líneas horizontales introducen cadencia operativa.",
+    "kicker": "LECTURA // COMPOSICIÓN",
+    "tags": "layout\ngrid\ndireccion\nritmo",
+    "points": "Masa visual principal cerca del centro para estabilidad.\nScanlines y divisores horizontales para dirección constante.\nAnimación breve para sugerir señal en vivo sin distraer.",
+    "body": "La composición centrada reduce ambigüedad: el usuario identifica rápido la zona de lectura principal. Esta decisión es útil cuando la interfaz es oscura y cargada de textura.\n\nLas líneas horizontales agregan una narrativa de monitor y sistema, reforzando la identidad low-key. No son adorno: organizan bloques y ritmo de escaneo.\n\nEl movimiento se mantiene mínimo. Un deslizamiento leve de scanlines y apariciones escalonadas alcanza para dar vida sin romper concentración."
+  },
+  {
+    "id": "lab-04",
+    "code": "LAB-04",
+    "date": "20.03.2026",
+    "tone": "Textura controlada",
+    "title": "Textura: grano fino y scanlines discretas",
+    "intro": "La textura sostiene atmósfera cuando se mantiene por debajo del umbral de distracción.",
+    "kicker": "LECTURA // SUPERFICIE",
+    "tags": "textura\nruido\nscanlines\ndetalles",
+    "points": "Ruido suave para evitar planos muertos.\nScanlines lentas para profundidad temporal.\nContraste alto para conservar claridad funcional.",
+    "body": "Una superficie totalmente lisa suele verse artificial en propuestas low-key. El grano fino introduce una fricción visual que vuelve el sistema más físico.\n\nLas scanlines aportan sensación de señal analógica. Si son demasiado intensas, molestan; si son tenues y lentas, construyen atmósfera sin competir con el contenido.\n\nEl balance final combina textura, contraste y jerarquía tipográfica. Ninguno de esos elementos debería dominar por separado."
+  }
+]

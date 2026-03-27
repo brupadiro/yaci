@@ -1,0 +1,49 @@
+media: assets/uploads
+content:
+  - name: entradas
+    label: Entradas
+    type: file
+    path: content/entries.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: ID (slug)
+        type: string
+        required: true
+        description: "Ejemplo: lab-05"
+      - name: code
+        label: Código
+        type: string
+        required: true
+        description: "Ejemplo: LAB-05"
+      - name: date
+        label: Fecha
+        type: string
+        required: true
+        description: "Formato recomendado: DD.MM.YYYY"
+      - name: tone
+        label: Tono
+        type: string
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: intro
+        label: Intro
+        type: text
+      - name: kicker
+        label: Kicker
+        type: string
+      - name: tags
+        label: Tags
+        type: text
+        description: "Una etiqueta por línea"
+      - name: points
+        label: Puntos clave
+        type: text
+        description: "Un punto por línea"
+      - name: body
+        label: Cuerpo
+        type: text
+        description: "Separá párrafos con una línea en blanco"
